@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navigation Pane with Bright Colored Buttons</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+    }
+
+   
+
+    .nav a {
+      display: block;
+      margin-bottom: 10px;
+      padding: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      width: 30px;
+      height: 30px;
+      border-radius: 10px;
+    }
+
+    .nav a:hover {
+      font-size: 18px;
+    }
+
+    .nav .red-btn {
+      background-color: #ff0000;
+      color: #fff;
+    }
+
+    .nav .blue-btn {
+      background-color: #0000ff;
+      color: #fff;
+    }
+
+    .nav .green-btn {
+      background-color: #00ff00;
+      color: #000;
+    }
+
+    .nav .yellow-btn {
+      background-color: #ffff00;
+      color: #000;
+    }
+
+    .content {
+      padding: 20px;
+    }
+    #div1{
+      width: fit-content;
+      height: 500px;
+      margin: 30px auto;
+      border: 3px solid black;
+
+    }
+  </style>
+</head>
+<body>
+  <div id="div1">
+  <div class="container">
+    <div class="nav">
+      <a href="#" class="red-btn"></a>
+      <a href="#" class="blue-btn"></a>
+      <a href="#" class="green-btn"></a>
+      <a href="#" class="yellow-btn"></a>
+    </div>
+    <div class="content">
+      <h1>Hoverable Sidenav Buttons</h1>
+      <p>This is the main content area of the webpage.</p>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
